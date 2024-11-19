@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link rel="stylesheet" href="day8.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="s1">
+    <div class="saedbal">
+        <div class="logo">
+            <img src="1.png" alt="">
+        </div>
+        <div class="sec1">
+            <div class="titl">
+                <h5>APPS</h5>
+                <div class="project">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h3>project</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Dashboard</a>
+                        <a href="">project List</a>
+                        <a href="">Scrum Board</a>
+                        <a href="">Issue</a>
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>CRM</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Dashboard</a>
+                        <a href="">Clendar</a>
+                        <a href="">Customers</a>
+                        <a href="">Customer Details</a>
+                        <a href="">Mail</a>
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h3>Sales</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Dashboard</a>
+                        <a href="">Product List</a>
+                        <a href="">Product Edit</a>
+                        <a href="">Order List</a>
+                        <a href="">Order Details</a>
+                    </div>
+                </div>
+                
+                
+                <div class="project">
+                    <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                    <h3>Crypto</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Dashboard</a>
+                        <a href="">Portfolio</a>
+                        <a href="">Market</a>
+                        <a href="">Wallets</a>
+                    </div>
+                </div> 
+
+
+                <div class="project">
+                    <i class="fa-solid fa-book-open"></i>
+                    <h4>Knowledge Base</h4>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Help center</a>
+                        <a href="">Article</a>
+                        <a href="">Manage Article</a>
+                        <a href="">Edit Article</a>
+                    </div>
+                </div> 
+                
+
+                <div class="project">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Account</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Setting</a>
+                        <a href="">Invoice</a>
+                        <a href="">Activity Log</a>
+                        <a href="">KYC form</a>
+                    </div>
+                </div>
+                
+
+                <h5 class="ui">UI COMPONENTS</h5>
+                <div class="project">
+                    <i class="fa-solid fa-swatchbook"></i>
+                    <h3>Common</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Button</a>
+                        <a href="">Grid</a>
+                        <a href="">Typography</a>
+                        <a href="">Icons</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <i class="fa-regular fa-message"></i>
+                    <h3>Feedback</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Alert</a>
+                        <a href="">Dialog</a>
+                        <a href="">Drawer</a>
+                        <a href="">Progress</a>
+                        <a href="">Skeleton</a>
+                        <a href="">spinner</a>
+                        <a href="">Toast</a>
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <i class="fa-solid fa-display"></i>
+                    <h3>Data Display</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Avatar</a>
+                        <a href="">Badage</a>
+                        <a href="">Calendar</a>
+                        <a href="">Cards</a>
+                        <a href="">Table</a>
+                        <a href="">Tag</a>
+                        <a href="">Timeline</a>
+                        <a href="">Tooltip</a>
+                    </div>
+                </div>
+
+
+
+                <div class="project">
+                    <i class="fa-solid fa-file"></i>
+                    <h3>Forms</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Checkbox</a>
+                        <a href="">Date Picker</a>
+                        <a href="">Form Control</a>
+                        <a href="">Input</a>
+                        <a href="">Input Group</a>
+                        <a href="">Radio</a>
+                        <a href="">Segment</a>
+                        <a href="">Select</a>
+                        <a href="">Switcher</a>
+                        <a href="">Time Input</a>
+                        <a href="">Uplad</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <h3>Navigation</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Dropdown</a>
+                        <a href="">Menu</a>
+                        <a href="">Pagination</a>
+                        <a href="">Steps</a>
+                        <a href="">Tabs</a>
+            
+                    </div>
+                </div>
+
+
+                 <div class="project">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <h3>Graph</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Charts</a>
+                        <a href="">Maps</a>
+                    
+                    </div>
+                </div>
+
+                
+
+                <h5 class="ui">PAGES</h5>
+                <div class="project">
+                    <i class="fa-solid fa-hand"></i>
+                    <a href="">Welcome</a>
+                </div>
+                <div class="project">
+                    <i class="fa-solid fa-ban"></i>
+                    <a href="">Access Denied</a>
+                </div>
+
+
+
+                <h5 class="ui">AUTHENTICATION</h5>
+                <div class="project">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Sign In</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Simple</a>
+                        <a href="">Side</a>
+                        <a href="">Cover</a>
+                        
+                    </div>
+                </div>
+
+                
+
+                <div class="project">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <h3>Sign Up</h3>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Simple</a>
+                        <a href="">Side</a>
+                        <a href="">Cover</a>
+                        
+                    </div>
+                </div>
+
+                
+
+                <div class="project">
+                    <i class="fa-solid fa-lock"></i>
+                    <h4>Forgot Password</h4>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Simple</a>
+                        <a href="">Side</a>
+                        <a href="">Cover</a>
+                        
+                    </div>
+                </div>
+                
+
+
+
+                <div class="project">
+                    <i class="fa-solid fa-key"></i>
+                    <h4>Reset Password</h4>
+                    <i class="fa-solid fa-chevron-down" id="p1"></i>
+                </div>
+                <div class="project-fansan">
+                    <div class="p-icon">
+                        <a href="">Simple</a>
+                        <a href="">Side</a>
+                        <a href="">Cover</a>
+                        
+                    </div>
+                </div>
+
+
+
+                <h5 class="ui">GUIDE</h5>
+                <div class="project">
+                    <i class="fa-solid fa-file"></i>
+                    <a href="">Documentation</a>
+                </div>
+                <div class="project">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <a href="">Shared Component</a>
+                </div>
+                <div class="project">
+                    <i class="fa-solid fa-square-root-variable"></i>
+                    <a href="">Utilities</a>
+                </div>
+                <div class="project">
+                    <i class="fa-solid fa-code"></i>
+                    <a href="">Changelog</a>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="saedbal1">
+        <div class="bal">
+            <div class="logo1">
+                <img src="2.png" alt="">
+             </div>
+            <div class="icon1">
+                <i class="fa-solid fa-chart-simple"></i>
+                <i class="fa-solid fa-users"></i>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                <i class="fa-solid fa-book-open"></i>
+                <i class="fa-solid fa-user"></i>
+
+                <i class="fa-solid fa-swatchbook"></i>
+                <i class="fa-regular fa-message"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-file"></i>
+                <i class="fa-solid fa-paper-plane"></i>
+                <i class="fa-solid fa-chart-pie"></i>
+
+                <i class="fa-solid fa-hand"></i>
+                <i class="fa-solid fa-ban"></i>
+
+                <i class="fa-solid fa-shield-halved"></i>
+                <i class="fa-solid fa-user-plus"></i>
+                <i class="fa-solid fa-lock"></i>
+                <i class="fa-solid fa-key"></i>
+
+                <i class="fa-solid fa-file"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-solid fa-square-root-variable"></i>
+                <i class="fa-solid fa-code"></i>
+            </div>
+        </div>
+    </div>
+    <div class="nav-m">
+    <div class="nav">
+        <div class="n1">
+            <i class="fa-solid fa-bars" id="menu"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="n2">
+            <div class="m1">
+                <img src="3.png" alt="">
+            </div>
+            <div class="m1">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="m1">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="m1">
+                <img src="4.jpg" alt="">
+            </div>
+            <div class="m2">
+                <h6>Admin</h6>
+                <h3>Carolyn Perkins</h3>
+            </div>
+        </div>
+    </div>
+    <div class="sales">
+        <div class="sls1">
+            <h3>Sales Overview</h3>
+            <p>View your current sales & summary</p>
+        </div>
+        <div class="sls2">
+            <div class="sl">
+                <h5>Sep 08, 2023 ~ Dec 08, 2023</h5>
+            </div>
+            <div class="sl1">
+                <i class="fa-solid fa-filter"></i>
+                <h5>Filter</h5>
+            </div>
+        </div>
+    </div>
+    <div class="revenue">
+        <div class="rvn">
+            <div class="nem">
+                <h5>Revenue</h5>
+            </div>
+            <div class="nem1">
+                <div class="nm">
+                    <h2>$21,827.13</h2>
+                    <p>vs. 3 months prior to <span>20 Jan</span></p>
+                </div>
+                <div class="nm1">
+                    <div class="nmp">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <h4>11.4%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rvn">
+            <div class="nem">
+                <h5>Orders</h5>
+            </div>
+            <div class="nem1">
+                <div class="nm">
+                    <h2>1,758</h2>
+                    <p>vs. 3 months prior to <span>20 Jan</span></p>
+                </div>
+                <div class="nm1">
+                    <div class="nmp1">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <h4>-3.2%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rvn">
+            <div class="nem">
+                <h5>Purchases</h5>
+            </div>
+            <div class="nem1">
+                <div class="nm">
+                    <h2>$7,249.31</h2>
+                    <p>vs. 3 months prior to <span>20 Jan</span></p>
+                </div>
+                <div class="nm1">
+                    <div class="nmp">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <h4>5.7%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chart">
+        <div class="crt">
+            <div class="ct">
+                <div class="ctp">
+                    <h3>Sales Report</h3>
+                </div>
+                <div class="ctp1">
+                    <button>Export Report</button>
+                </div>
+            </div>
+            <div class="ct1">
+                <div id="chart"></div>
+            </div>
+        </div>
+        <div class="crt1">
+            <div class="ct" id="p-p">
+                <h3>Categories</h3>
+            </div>
+            <div class="ct1">
+                <div id="chart1"></div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="tebal">
+            <div class="tbl">
+                <div class="tb">
+                    <div class="tbp">
+                        <h3>Latest Orders</h3>
+                    </div>
+                    <div class="tbp1">
+                        <button>View Orders</button>
+                    </div>
+                </div>
+                <div class="tb1">
+
+                    <div class="s4order">
+                        <div class="ol"><p>ORDER</p></div>
+                        <div class="ol"><p>STATUS</p></div>
+                        <div class="ol"><p>DATE</p></div>
+                        <div class="ol"><p>CUSTOMER</p></div>
+                        <div class="ol"><p>PROFILE <br> PROGRESS</p></div>
+                    </div>
+    
+                    <div class="s4order1">
+                        <div class="ol"><a href="">#95954</a></div>
+                        <div class="ol"><p id="green">&#x2022; paid</p></div>
+                        <div class="ol"><p>10/08/2023</p></div>
+                        <div class="ol"><p>Ron Vargas</p></div>
+                        <div class="ol"><p>$168.00</p></div>
+                    </div>
+    
+                    <div class="s4order1">
+                        <div class="ol"><a href="">#95423</a></div>
+                        <div class="ol"><p id="green">&#x2022; paid</p></div>
+                        <div class="ol"><p>30/07/2023</p></div>
+                        <div class="ol"><p>Carolyn Hanso</p></div>
+                        <div class="ol"><p>$523.00</p></div>
+                    </div>
+    
+                    <div class="s4order1">
+                        <div class="ol"><a href="">#92903</a></div>
+                        <div class="ol"><p id="orange">&#x2022; pending</p></div>
+                        <div class="ol"><p>18/07/2023</p></div>
+                        <div class="ol"><p>Gabriella May</p></div>
+                        <div class="ol"><p>$81.00</p></div>
+                    </div>
+    
+                    <div class="s4order1">
+                        <div class="ol"><a href="">#92627</a></div>
+                        <div class="ol"><p id="red">&#x2022; failed</p></div>
+                        <div class="ol"><p>09/07/2023</p></div>
+                        <div class="ol"><p>Tara Fletcher</p></div>
+                        <div class="ol"><p>$279.00</p></div>
+                    </div>
+    
+                    <div class="s4order1">
+                        <div class="ol"><a href="">#89332</a></div>
+                        <div class="ol"><p id="green">&#x2022; paid</p></div>
+                        <div class="ol"><p>02/06/2023</p></div>
+                        <div class="ol"><p>Eileen Horton</p></div>
+                        <div class="ol"><p>$597.00</p></div>
+                    </div>
+    
+                    <div class="s4order1">
+                        <div class="ol"><a href="">#86497</a></div>
+                        <div class="ol"><p id="red">&#x2022; failed</p></div>
+                        <div class="ol"><p>19/03/2023</p></div>
+                        <div class="ol"><p>Lloyd Obrien</p></div>
+                        <div class="ol"><p>$189.00</p></div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+            <div class="tbl1">
+                <div class="tb">
+                    <div class="tbp">
+                        <h3 id="top">Top Selling</h3>
+                    </div>
+                    <div class="tbp1-p">
+                        <button>View Orders</button>
+                    </div>
+                </div>
+                <div class="tb1">
+                    <div id='calendar'></div>
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+</body>
+<script src="day8.js"></script>
+</html>
